@@ -1,238 +1,238 @@
 {
-  "main": {
-    "name": "Jonathan Spratley",
-    "occupation": "Front-End Software Engineer",
-    "description": "8+ years of experience. I enjoy coding, testing and application architecture. I have written articles for Safari Books and authored a book for Packt Publishing.",
-    "image": "/images/profilepic.jpg",
-    "bio": "I have spent several years creating user interfaces and projects using HTML/CSS/JS technologies. I have a passion for creating tools to streamline a developer’s productivity. I understand web technology and the development lifecycle; I am a detail oriented individual that always strives to produce the best work; I am self- taught; I enjoy learning and teaching others; I am a problem solver and a leader.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "jonnie.spratley@me.com",
-    "phone": "(916) 241-3613",
-    "address": {
-      "street": "1234 Somewhere St.",
-      "city": "Bay Area",
-      "state": "CA",
-      "zip": "94526"
+    "main": {
+        "name": "Jonathan Spratley",
+        "occupation": "Front-End Software Engineer",
+        "description": "Im a pasion and application architecture. I have written articles for Safari Books and authored a book for Packt Publishing.",
+        "image": "/images/profilepic.jpg",
+        "bio": "I have spent several years creating user interfaces and projects using HTML/CSS/JS technologies. I have a passion for creating tools to streamline a developer’s productivity. I understand web technology and the development lifecycle; I am a detail oriented individual that always strives to produce the best work; I am self- taught; I enjoy learning and teaching others; I am a problem solver and a leader.",
+        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "email": "jonnie.spratley@me.com",
+        "phone": "(916) 241-3613",
+        "address": {
+            "street": "1234 Somewhere St.",
+            "city": "Bay Area",
+            "state": "CA",
+            "zip": "94526"
+        },
+        "website": "http://www.jonniespratley.me",
+        "resumedownload": "http://www.jonniespratley.me/public/resume.pdf",
+        "social": [
+            {
+                "name": "facebook",
+                "url": "http://facebook.com/jonniespratley",
+                "className": "fab fa-facebook"
+            },
+            {
+                "name": "twitter",
+                "url": "http://twitter.com/jonniespratley",
+                "className": "fab fa-twitter"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/jonniespratley/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "http://github.com/jonniespratley",
+                "className": "fa fa-github"
+            }
+        ]
     },
-    "website": "http://www.jonniespratley.me",
-    "resumedownload": "http://www.jonniespratley.me/public/resume.pdf",
-    "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/jonniespratley",
-        "className": "fab fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com/jonniespratley",
-        "className": "fab fa-twitter"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/jonniespratley/",
-        "className": "fa fa-linkedin"
-      },
-      {
-        "name": "github",
-        "url": "http://github.com/jonniespratley",
-        "className": "fa fa-github"
-      }
-    ]
-  },
-  "resume": {
-    "skillmessage": "Skilled in various front-end technologies, here are my favorites.",
-    "education": [
-      {
-        "school": "Sierra College",
-        "degree": "Computer Science",
-        "graduated": "Apr 2007",
-        "description": "Took various computer science courses, then decided to teach myself."
-      },
-      {
-        "school": "Bella Vista HS",
-        "degree": "General Education",
-        "graduated": "Mar 2005",
-        "description": "Football, Track and Field."
-      }
-    ],
-    "work": [
-      {
-        "id": 0,
-        "company": "GE Digital",
-        "title": "Senior Software Engineer",
-        "years": "Mar 2014 - Present",
-        "skills": "git, JavaScript, HTML, CSS, Node.js",
-        "description": "Led team of software engineers driving full stack development.Implemented UI designs using CSS3, HTML5 and JavaScript. Develop programs to improve the effectiveness and overall operation of the team."
-      },
-      {
-        "id": 1,
-        "company": "Silicon Villas",
-        "title": "Instructor",
-        "skills": "JavaScript, Design Patterns",
-        "years": "Jul 2017",
-        "description": "Served as a mentor for developers located in Italy. Curated curriculum on novice JavaScript fundamentals. Second course involed more advaced JavaScript including design patterns."
-      },
-      {
-        "id": 2,
-        "company": "Techworkers",
-        "title": "UI Developer",
-        "years": "Feb 2014",
-        "description": "Developed front-end components by using HTML5, CSS3 and JavaScript. Worked closely with stakeholders to gather functional and technical requirements."
-      },
-      {
-        "id": 3,
-        "company": "Packt Publishing",
-        "title": "Author",
-        "years": "Nov 2013",
-        "description": "Wrote curriculum for process driven chapters. Demonstrated how to use open-source tools to streamline the development process. Collaborated with Quality control to ensure tutorials work across multiple platforms."
-      },
+    "resume": {
+        "skillmessage": "Skilled in various front-end technologies, here are my favorites.",
+        "education": [
+            {
+                "school": "Sierra College",
+                "degree": "Computer Science",
+                "graduated": "Apr 2007",
+                "description": "Took various computer science courses, then decided to teach myself."
+            },
+            {
+                "school": "Bella Vista HS",
+                "degree": "General Education",
+                "graduated": "Mar 2005",
+                "description": "Football, Track and Field."
+            }
+        ],
+        "work": [
+            {
+                "id": 0,
+                "company": "GE Digital",
+                "title": "Senior Software Engineer",
+                "years": "Mar 2014 - Present",
+                "skills": "git, JavaScript, HTML, CSS, Node.js",
+                "description": "Led team of software engineers driving full stack development.Implemented UI designs using CSS3, HTML5 and JavaScript. Develop programs to improve the effectiveness and overall operation of the team."
+            },
+            {
+                "id": 1,
+                "company": "Silicon Villas",
+                "title": "Instructor",
+                "skills": "JavaScript, Design Patterns",
+                "years": "Jul 2017",
+                "description": "Served as a mentor for developers located in Italy. Curated curriculum on novice JavaScript fundamentals. Second course involed more advaced JavaScript including design patterns."
+            },
+            {
+                "id": 2,
+                "company": "Techworkers",
+                "title": "UI Developer",
+                "years": "Feb 2014",
+                "description": "Developed front-end components by using HTML5, CSS3 and JavaScript. Worked closely with stakeholders to gather functional and technical requirements."
+            },
+            {
+                "id": 3,
+                "company": "Packt Publishing",
+                "title": "Author",
+                "years": "Nov 2013",
+                "description": "Wrote curriculum for process driven chapters. Demonstrated how to use open-source tools to streamline the development process. Collaborated with Quality control to ensure tutorials work across multiple platforms."
+            },
 
-      {
-        "id": 4,
-        "company": "AcademyX",
-        "title": "Instructor",
-        "years": "Jul 2013",
-        "description": "Curated Flash UI/UX Development curriculum for mobile applications. Taught 1-on-1 students on using Flash IDE for mobile development. Covered basics of using Flash in mobile development."
-      },
-      {
-        "id": 5,
-        "company": "Mobiquity Inc",
-        "title": "UI Developer",
-        "years": "May 2013",
-        "description": "Implemented UI designs using semantic HTML & Javascript. Collaborated with system engineers on API design specs. Implemented TDD into software development lifecylce."
-      },
-      {
-        "id": 6,
-        "company": "AppMatrix Inc.",
-        "title": "Director of Product Design ",
-        "years": "Aug 2011",
-        "description": "Designed and developed client-side architecture using AngularJS.Designed and implemented server-side infrastructure using PHP and Node.Designed and developed API interfaces for mobile applications.Designed and developed custom components using Angular, Node, jQuery."
-      }
-    ],
-    "skills": [
-      {
-        "name": "Git",
-        "level": 80,
-        "description": "Familiar with git-flow branching. Release tagging."
-      },
-      {
-        "name": "JavaScript/TypeScript",
-        "level": 90,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
-      },
-      {
-        "name": "NodeJS/ReactJS",
-        "level": 90,
-        "icon": "react",
-        "description": "Proficient: Rust, C, Java, JavaScript, HTML, CSS, SQL, Clojure. Knowledgeable: C++, Python, bash scripting, Go (golang), Haskell"
-      },
-      {
-        "name": "HTML/CSS",
-        "level": 90,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
-      },
-      {
-        "name": "Design",
-        "level": 75,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
-      },
-      {
-        "name": "DevOps",
-        "level": 75,
-        "description": "Jenkins job workflows."
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Learning Yeoman",
-        "body": "A book writting on using Yeoman and other development tools.",
-        "image": "/images/portfolio/learning-yeoman-book-thumb.jpg",
-        "url": "https://www.amazon.com/Learning-Yeoman-Jonathan-Spratley/dp/1783981385"
-      },
-      {
-        "title": "React Design System",
-        "body": "Why? Well the predix-ui library is built with Polymer. This project attempts to bring those components to React.",
-        "image": "/images/portfolio/portfolio-image-2.png",
-        "url": "https://github.com/jonniespratley/predix-ui"
-      },
-      {
-        "title": "Passbook Manager",
-        "body": "A simple web application that allows you to create and manage Passes for Apple Wallet.",
-        "image": "/images/portfolio/passbook-manager-thumb.png",
-        "url": "https://github.com/jonniespratley/jps-passbook-manager"
-      },
-      {
-        "title": "passbook-cli",
-        "body": "A command line tool that simplifies the process of creating certificates, signing .raw packages and validating .pkpass packages for Apple Wallet.",
-        "url": "https://github.com/jonniespratley/passbook-cli",
-        "image": "/images/portfolio/passbook-cli.png"
-      }
-    ],
-    "publications": [
-      {
-        "title": "Learning Yeoman",
-        "subtitle": "Packt Publishing",
-        "date": "Aug  2014",
-        "body": "Build a web application using Yeoman and the scaffolding tool Yo to save time and therefore money! Learn how to use and customize Yeoman generators such as Angular and Backbone to streamline project development.",
-        "image": "/images/portfolio/learning-yeoman.png"
-      },
-      {
-        "title": "Creating an AngularJS Component",
-        "subtitle": "Safari Books Online",
-        "date": "Nov  2013",
-        "body": "For this post we are going to choose a very good HTML5 Canvas charting library. It goes by the name of ChartJS, and it has many charts that are very easy to use.",
-        "image": "/images/portfolio/ng-chartjs-banner.png"
-      },
-      {
-        "title": "Using HTML5 Web Speech",
-        "subtitle": "Safari Books Online",
-        "date": "Oct  2013",
-        "url": "https://drive.google.com/file/d/1cix9DnvvkW8w_Ik6ARgo6DcMKfVnwF31/view?usp=sharing",
-        "body": "The Web Speech API provides an alternative input method for web applications (without using a keyboard). Developers can give web applications the ability to transcribe voice to text, from the computer’s microphone",
-        "image": "/images/portfolio/ng-webspeech-banner.png"
-      },
-      {
-        "title": "Testing AngularJS with Jasmine",
-        "subtitle": "Safari Books Online",
-        "date": "Aug  2013",
-        "url": "https://drive.google.com/file/d/10iOrfALCsG70OReGm0ytvIEVsRPXMmqx/view?usp=sharing",
-        "body": "In this tip, we will be learning how to test AngularJS applications and code using Jasmine, which is a behavior-driven development framework for testing JavaScript code.",
-        "image": "/images/portfolio/jasmine-banner-wide.png"
-      },
-      {
-        "title": "Meteor Web Application Creation",
-        "subtitle": "Safari Books Online",
-        "date": "Jul 2013",
-        "url": "https://drive.google.com/file/d/16wPKOWikf7-AJf-lpBmJCpY5vRFOpBcr/view?usp=sharing",
-        "body": "In this post we will talk about using Meteor, which is an ultra-simple environment for building modern web applications. What once took weeks, even with the best tools, now takes hours with Meteor.",
-        "image": "/images/portfolio/meteor-banner-wide.png"
-      },
-      {
-        "title": "Using Yeoman to Create Web Apps",
-        "subtitle": "Safari Books Online",
-        "date": "Jun  2013",
-        "url": "https://drive.google.com/file/d/1j19XnBMGaQU1THlW4kdHMRIHUmlnfeaq/view?usp=sharing",
-        "body": "In this post we will discuss using Yeoman, which is a client-side stack that contains three tools and frameworks to help developers quickly build beautiful and scalable web applications.",
-        "image": "/images/portfolio/yo-hbp.png"
-      },
-      {
-        "title": "Rich Components with Flash",
-        "subtitle": "Flash & Flex Developers Magazine",
-        "date": "Apr 2009",
-        "url": "https://drive.google.com/file/d/14ZN_vmFOdyMOb3vYttyDMoYU0N_OtZox/view?usp=sharing",
-        "body": "Creating Rich Components with Flash and Flex have never been so easy, you just never hear about, until now. Many designers and developers dislike using the Flash CS4 as there primary coding IDE when creating applications, website, or even simple banners.",
-        "image": "/images/portfolio/ffd-mag-1.png"
-      },
-      {
-        "title": "Flash Application Architecture ",
-        "subtitle": "Flash & Flex Developers Magazine",
-        "date": "Mar 2009",
-        "url": "https://drive.google.com/file/d/1q7JKSJWNjRAxbRYhNuVMentzai67STEx/view?usp=sharing",
-        "body": "The role of the View in a Cairngorm application is to throw events based on user actions. nd bind to the Model for data representation. (Either through Value Objects or other structures).",
-        "image": "/images/ffdm_article2.jpg"
-      }
-    ]
-  }
+            {
+                "id": 4,
+                "company": "AcademyX",
+                "title": "Instructor",
+                "years": "Jul 2013",
+                "description": "Curated Flash UI/UX Development curriculum for mobile applications. Taught 1-on-1 students on using Flash IDE for mobile development. Covered basics of using Flash in mobile development."
+            },
+            {
+                "id": 5,
+                "company": "Mobiquity Inc",
+                "title": "UI Developer",
+                "years": "May 2013",
+                "description": "Implemented UI designs using semantic HTML & Javascript. Collaborated with system engineers on API design specs. Implemented TDD into software development lifecylce."
+            },
+            {
+                "id": 6,
+                "company": "AppMatrix Inc.",
+                "title": "Director of Product Design ",
+                "years": "Aug 2011",
+                "description": "Designed and developed client-side architecture using AngularJS.Designed and implemented server-side infrastructure using PHP and Node.Designed and developed API interfaces for mobile applications.Designed and developed custom components using Angular, Node, jQuery."
+            }
+        ],
+        "skills": [
+            {
+                "name": "Git",
+                "level": 80,
+                "description": "Familiar with git-flow branching. Release tagging."
+            },
+            {
+                "name": "JavaScript/TypeScript",
+                "level": 90,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+            },
+            {
+                "name": "NodeJS/ReactJS",
+                "level": 90,
+                "icon": "react",
+                "description": "Proficient: Rust, C, Java, JavaScript, HTML, CSS, SQL, Clojure. Knowledgeable: C++, Python, bash scripting, Go (golang), Haskell"
+            },
+            {
+                "name": "HTML/CSS",
+                "level": 90,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+            },
+            {
+                "name": "Design",
+                "level": 75,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+            },
+            {
+                "name": "DevOps",
+                "level": 75,
+                "description": "Jenkins job workflows."
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Learning Yeoman",
+                "body": "A book writting on using Yeoman and other development tools.",
+                "image": "/images/portfolio/learning-yeoman-book-thumb.jpg",
+                "url": "https://www.amazon.com/Learning-Yeoman-Jonathan-Spratley/dp/1783981385"
+            },
+            {
+                "title": "React Design System",
+                "body": "Why? Well the predix-ui library is built with Polymer. This project attempts to bring those components to React.",
+                "image": "/images/portfolio/portfolio-image-2.png",
+                "url": "https://github.com/jonniespratley/predix-ui"
+            },
+            {
+                "title": "Passbook Manager",
+                "body": "A simple web application that allows you to create and manage Passes for Apple Wallet.",
+                "image": "/images/portfolio/passbook-manager-thumb.png",
+                "url": "https://github.com/jonniespratley/jps-passbook-manager"
+            },
+            {
+                "title": "passbook-cli",
+                "body": "A command line tool that simplifies the process of creating certificates, signing .raw packages and validating .pkpass packages for Apple Wallet.",
+                "url": "https://github.com/jonniespratley/passbook-cli",
+                "image": "/images/portfolio/passbook-cli.png"
+            }
+        ],
+        "publications": [
+            {
+                "title": "Learning Yeoman",
+                "subtitle": "Packt Publishing",
+                "date": "Aug  2014",
+                "body": "Build a web application using Yeoman and the scaffolding tool Yo to save time and therefore money! Learn how to use and customize Yeoman generators such as Angular and Backbone to streamline project development.",
+                "image": "/images/portfolio/learning-yeoman.png"
+            },
+            {
+                "title": "Creating an AngularJS Component",
+                "subtitle": "Safari Books Online",
+                "date": "Nov  2013",
+                "body": "For this post we are going to choose a very good HTML5 Canvas charting library. It goes by the name of ChartJS, and it has many charts that are very easy to use.",
+                "image": "/images/portfolio/ng-chartjs-banner.png"
+            },
+            {
+                "title": "Using HTML5 Web Speech",
+                "subtitle": "Safari Books Online",
+                "date": "Oct  2013",
+                "url": "https://drive.google.com/file/d/1cix9DnvvkW8w_Ik6ARgo6DcMKfVnwF31/view?usp=sharing",
+                "body": "The Web Speech API provides an alternative input method for web applications (without using a keyboard). Developers can give web applications the ability to transcribe voice to text, from the computer’s microphone",
+                "image": "/images/portfolio/ng-webspeech-banner.png"
+            },
+            {
+                "title": "Testing AngularJS with Jasmine",
+                "subtitle": "Safari Books Online",
+                "date": "Aug  2013",
+                "url": "https://drive.google.com/file/d/10iOrfALCsG70OReGm0ytvIEVsRPXMmqx/view?usp=sharing",
+                "body": "In this tip, we will be learning how to test AngularJS applications and code using Jasmine, which is a behavior-driven development framework for testing JavaScript code.",
+                "image": "/images/portfolio/jasmine-banner-wide.png"
+            },
+            {
+                "title": "Meteor Web Application Creation",
+                "subtitle": "Safari Books Online",
+                "date": "Jul 2013",
+                "url": "https://drive.google.com/file/d/16wPKOWikf7-AJf-lpBmJCpY5vRFOpBcr/view?usp=sharing",
+                "body": "In this post we will talk about using Meteor, which is an ultra-simple environment for building modern web applications. What once took weeks, even with the best tools, now takes hours with Meteor.",
+                "image": "/images/portfolio/meteor-banner-wide.png"
+            },
+            {
+                "title": "Using Yeoman to Create Web Apps",
+                "subtitle": "Safari Books Online",
+                "date": "Jun  2013",
+                "url": "https://drive.google.com/file/d/1j19XnBMGaQU1THlW4kdHMRIHUmlnfeaq/view?usp=sharing",
+                "body": "In this post we will discuss using Yeoman, which is a client-side stack that contains three tools and frameworks to help developers quickly build beautiful and scalable web applications.",
+                "image": "/images/portfolio/yo-hbp.png"
+            },
+            {
+                "title": "Rich Components with Flash",
+                "subtitle": "Flash & Flex Developers Magazine",
+                "date": "Apr 2009",
+                "url": "https://drive.google.com/file/d/14ZN_vmFOdyMOb3vYttyDMoYU0N_OtZox/view?usp=sharing",
+                "body": "Creating Rich Components with Flash and Flex have never been so easy, you just never hear about, until now. Many designers and developers dislike using the Flash CS4 as there primary coding IDE when creating applications, website, or even simple banners.",
+                "image": "/images/portfolio/ffd-mag-1.png"
+            },
+            {
+                "title": "Flash Application Architecture ",
+                "subtitle": "Flash & Flex Developers Magazine",
+                "date": "Mar 2009",
+                "url": "https://drive.google.com/file/d/1q7JKSJWNjRAxbRYhNuVMentzai67STEx/view?usp=sharing",
+                "body": "The role of the View in a Cairngorm application is to throw events based on user actions. nd bind to the Model for data representation. (Either through Value Objects or other structures).",
+                "image": "/images/ffdm_article2.jpg"
+            }
+        ]
+    }
 }
