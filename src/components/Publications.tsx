@@ -1,4 +1,5 @@
 import React from 'react';
+import clsx from 'clsx';
 import {
     makeStyles,
     Card,
@@ -51,9 +52,10 @@ interface PubCardProps {
     date: string;
     url: string;
     subtitle: string;
+    expandable?: boolean;
 }
 
-const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, date }) => {
+const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, date, expandable }) => {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
     const handleExpandClick = () => {
@@ -72,14 +74,22 @@ const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, da
                 subheader={`${subtitle} - ${date}`}
             />
             <CardMedia className={classes.media} component="img" height={120} image={image} title={title} />
-
-            <Collapse in={expanded} timeout="auto" unmountOnExit>
+            {!expandable && (
                 <CardContent>
                     <Typography component="p" variant="body2" color="textSecondary">
                         {body}
                     </Typography>
                 </CardContent>
-            </Collapse>
+            )}
+            {expandable && (
+                <Collapse in={expanded} timeout="auto" unmountOnExit>
+                    <CardContent>
+                        <Typography component="p" variant="body2" color="textSecondary">
+                            {body}
+                        </Typography>
+                    </CardContent>
+                </Collapse>
+            )}
             <CardActions disableSpacing className={classes.actions}>
                 <IconButton
                     aria-label={`View ${title} PDF`}
@@ -89,10 +99,18 @@ const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, da
                 >
                     <FontAwesomeIcon icon={faFilePdf} />
                 </IconButton>
-
-                <IconButton onClick={handleExpandClick} aria-expanded={expanded} aria-label="show more">
-                    <ExpandMoreIcon />
-                </IconButton>
+                {expandable && (
+                    <IconButton
+                        className={clsx(classes.expand, {
+                            [classes.expandOpen]: expanded
+                        })}
+                        onClick={handleExpandClick}
+                        aria-expanded={expanded}
+                        aria-label="show more"
+                    >
+                        <ExpandMoreIcon />
+                    </IconButton>
+                )}
             </CardActions>
         </Card>
     );

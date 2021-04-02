@@ -2,16 +2,13 @@ body {
   min-width: fit-content;
 }
 .App {
-  background: white;
-  max-width: 760px;
 
   margin-right: auto;
   margin-left: auto;
   position: relative;
   overflow: auto;
-  background-color: #fff;
-  box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 20%);
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 1rem;
+ 
+  
+  
+  padding: 1rem 0;
 }

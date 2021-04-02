@@ -16,7 +16,8 @@ import {
     makeStyles,
     LinearProgress,
     Paper,
-    Container
+    Container,
+    ListItemIcon
 } from '@material-ui/core';
 import {
     faFacebookSquare,
@@ -32,6 +33,7 @@ import './styles.css';
 import resumeData from './resumeData.json';
 import { Experience, JobTimeline, Projects, Publications } from './components';
 import { IEducation } from './interfaces';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const socialIcons = {
     facebook: faFacebookSquare,
@@ -57,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         padding: theme.spacing(2),
-        maxWidth: 760,
+        //maxWidth: 760,
         margin: '0 auto'
     }
 }));
@@ -77,7 +79,7 @@ const FeatureTitle = ({ title = 'Section' }) => (
         </Typography>
     </Box>
 );
-const Education = (education: IEducation[]) => (
+const Education = ({ education }) => (
     <List>
         {education.map((edu: IEducation) => (
             <ListItem key={edu.school}>
@@ -88,54 +90,71 @@ const Education = (education: IEducation[]) => (
     </List>
 );
 
+const Skills = ({ skills }) => {
+    return (
+        <List>
+            {skills.map((skill) => (
+                <ListItem key={skill.name}>
+                    <ListItemText primary={skill.name} secondary={skill.description} />
+                </ListItem>
+            ))}
+        </List>
+    );
+};
+import EmailIcon from '@material-ui/icons/Email';
+import PhoneIphone from '@material-ui/icons/PhoneIphone';
+
 export default function App() {
     const { resume, main, portfolio } = resumeData;
     const styles = useStyles();
+
+    const UserCard = () => (
+        <Paper>
+            <Box display="flex" alignItems="center" flexDirection="column" p={3}>
+                <Avatar src={main.image} />
+                <Typography variant="h6">{main.name}</Typography>
+                <Typography variant="body2" color="textSecondary">
+                    {main.description}
+                </Typography>
+
+                <Typography variant="h6">Contact Me</Typography>
+                <Box display="flex" justifyContent="center" alignItems="center">
+                    <IconButton color="secondary">
+                        <EmailIcon />
+                    </IconButton>
+                    <IconButton color="secondary">
+                        <PhoneIphone />
+                    </IconButton>
+                </Box>
+
+                <Typography variant="h6">Follow Me</Typography>
+                <Box display="flex" justifyContent="center" alignItems="center">
+                    {main.social.map((s) => (
+                        <IconButton
+                            aria-label={s.name}
+                            color="secondary"
+                            key={s.name}
+                            onClick={() => {
+                                window.open(s.url, '_blank');
+                            }}
+                        >
+                            <FontAwesomeIcon icon={socialIcons[s.name] as IconName} />
+                        </IconButton>
+                    ))}
+                </Box>
+            </Box>
+        </Paper>
+    );
+
     return (
-        <div className="">
-            <Container>
+        <div className="App">
+            <Container fixed>
                 <Grid container spacing={4}>
-                    <Grid item xs={12}>
-                        <Paper>
-                            <Grid container>
-                                {/* MAIN */}
-                                <Grid item xs>
-                                    <Box display="flex" alignItems="center" mb={4} justifyContent="center">
-                                        <Typography variant="h6" component="h2">
-                                            {main.name}
-                                        </Typography>
-                                    </Box>
-                                    {/* SOCIAL */}
-                                    <Grid item xs={12}></Grid>
-                                    <Box display="flex" justifyContent="space-between">
-                                        <Box p={2}>
-                                            Email: <Link href={`mailto:${main.email}`}>{main.email}</Link>
-                                            <br />
-                                            Phone: <Link href={`tel:${main.phone}`}>{main.phone}</Link>
-                                        </Box>
-                                    </Box>
-                                </Grid>
-                                <Grid item xs>
-                                    <Box display="flex" justifyContent="center" alignItems="center">
-                                        {main.social.map((s) => (
-                                            <IconButton
-                                                aria-label={s.name}
-                                                color="secondary"
-                                                key={s.name}
-                                                onClick={() => {
-                                                    window.open(s.url, '_blank');
-                                                }}
-                                            >
-                                                <FontAwesomeIcon icon={socialIcons[s.name] as IconName} />
-                                            </IconButton>
-                                        ))}
-                                    </Box>
-                                </Grid>
-                            </Grid>
-                        </Paper>
+                    <Grid item xs={6} md={3}>
+                        <UserCard />
                     </Grid>
 
-                    <Grid item xs={12}>
+                    <Grid item xs={6} md={9}>
                         <Paper className={styles.paper}>
                             <Grid container>
                                 {/* WORK EXPERIENCE */}
@@ -147,13 +166,13 @@ export default function App() {
                                 {/* Skills */}
                                 <Grid item>
                                     <SectionTitle title="Technical" />
-                                    {Skills()}
+                                    <Skills skills={resume.skills} />
                                 </Grid>
 
                                 {/* EDUCATION */}
                                 <Grid item xs={12}>
                                     <SectionTitle title="Education" />
-                                    {Education}
+                                    <Education education={resume.education} />
                                 </Grid>
                             </Grid>
                         </Paper>
@@ -178,16 +197,4 @@ export default function App() {
             </Container>
         </div>
     );
-
-    function Skills() {
-        return (
-            <List>
-                {resume.skills.map((skill) => (
-                    <ListItem key={skill.name}>
-                        <ListItemText primary={skill.name} secondary={skill.description} />
-                    </ListItem>
-                ))}
-            </List>
-        );
-    }
 }
