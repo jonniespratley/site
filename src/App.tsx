@@ -158,50 +158,12 @@ export default function App() {
         <div className="App">
             <Container fixed>
                 <Grid container spacing={4}>
-                    <Grid item xs={12}>
-                        <UserCard />
-                    </Grid>
+                    <UserCard />
+                    <FeatureTitle title="Projects" />
+                    <Projects projects={portfolio.projects} />
 
-                    <Grid item xs={12}>
-                        <Paper className={styles.paper}>
-                            <Grid container>
-                                {/* WORK EXPERIENCE */}
-                                <Grid item xs={12}>
-                                    <SectionTitle title="Experience" />
-                                    <Experience resume={resume} />
-                                </Grid>
-
-                                {/* Skills 
-                                <Grid item>
-                                    <SectionTitle title="Technical" />
-                                    <Skills skills={resume.skills} />
-                                </Grid>
-                                */}
-
-                                {/* EDUCATION */}
-                                <Grid item xs={12}>
-                                    <SectionTitle title="Education" />
-                                    <Education education={resume.education} />
-                                </Grid>
-                            </Grid>
-                        </Paper>
-
-                        <Grid container>
-                            {/* PUBLICATIONS */}
-                            <Grid item xs={12}>
-                                <FeatureTitle title="Publications" />
-                                <Publications publications={portfolio.publications} />
-                            </Grid>
-                        </Grid>
-
-                        <Grid container>
-                            {/* PROJECTS */}
-                            <Grid item xs={12}>
-                                <FeatureTitle title="Projects" />
-                                <Projects projects={portfolio.projects} />
-                            </Grid>
-                        </Grid>
-                    </Grid>
+                    <FeatureTitle title="Publications" />
+                    <Publications publications={portfolio.publications} />
                 </Grid>
             </Container>
         </div>
