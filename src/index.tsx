@@ -18,6 +18,11 @@ const theme = createMuiTheme({
         background: {
             default: '#e9ecef'
         }
+    },
+    props: {
+        MuiButtonBase: {
+            disableRipple: true
+        }
     }
 });
 

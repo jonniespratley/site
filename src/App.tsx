@@ -61,6 +61,10 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         //maxWidth: 760,
         margin: '0 auto'
+    },
+    large: {
+        width: theme.spacing(7),
+        height: theme.spacing(7)
     }
 }));
 
@@ -110,25 +114,29 @@ export default function App() {
 
     const UserCard = () => (
         <Paper>
-            <Box display="flex" alignItems="center" flexDirection="column" p={3}>
-                <Avatar src={main.image} />
-                <Typography variant="h6">{main.name}</Typography>
-                <Typography variant="body2" color="textSecondary">
-                    {main.description}
-                </Typography>
+            <Box display="flex" alignItems="center" px={1}>
+                <List>
+                    <ListItem button>
+                        <ListItemAvatar>
+                            <Avatar src={main.image} />
+                        </ListItemAvatar>
+                        <ListItemText>
+                            <Typography variant="h6">{main.name}</Typography>
+                            <Typography variant="body2" color="textSecondary">
+                                {main.description}
+                            </Typography>
+                        </ListItemText>
+                    </ListItem>
+                </List>
 
-                <Typography variant="h6">Contact Me</Typography>
-                <Box display="flex" justifyContent="center" alignItems="center">
+                <Box display="flex" justifyContent="spaceAround" alignItems="center">
                     <IconButton color="secondary">
                         <EmailIcon />
                     </IconButton>
                     <IconButton color="secondary">
                         <PhoneIphone />
                     </IconButton>
-                </Box>
 
-                <Typography variant="h6">Follow Me</Typography>
-                <Box display="flex" justifyContent="center" alignItems="center">
                     {main.social.map((s) => (
                         <IconButton
                             aria-label={s.name}
@@ -150,11 +158,11 @@ export default function App() {
         <div className="App">
             <Container fixed>
                 <Grid container spacing={4}>
-                    <Grid item xs={6} md={3}>
+                    <Grid item xs={12}>
                         <UserCard />
                     </Grid>
 
-                    <Grid item xs={6} md={9}>
+                    <Grid item xs={12}>
                         <Paper className={styles.paper}>
                             <Grid container>
                                 {/* WORK EXPERIENCE */}
@@ -163,11 +171,12 @@ export default function App() {
                                     <Experience resume={resume} />
                                 </Grid>
 
-                                {/* Skills */}
+                                {/* Skills 
                                 <Grid item>
                                     <SectionTitle title="Technical" />
                                     <Skills skills={resume.skills} />
                                 </Grid>
+                                */}
 
                                 {/* EDUCATION */}
                                 <Grid item xs={12}>
