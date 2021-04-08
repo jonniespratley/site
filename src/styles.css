@@ -1,14 +1,10 @@
 body {
   min-width: fit-content;
 }
-.App {
 
+.App {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  overflow: auto;
- 
-  
-  
-  padding: 1rem 0;
+  overflow: hidden;
 }

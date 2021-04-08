@@ -18,13 +18,14 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+
 const useStyles = makeStyles((theme) => ({
     root: {
         //maxWidth: 350
         height: '100%'
     },
     media: {
-        //height: 0,
+        height: 150,
         // paddingTop: "56.25%" // 16:9
     },
     expand: {
@@ -52,10 +53,16 @@ interface PubCardProps {
     date: string;
     url: string;
     subtitle: string;
+    downloadable?: boolean;
     expandable?: boolean;
 }
-
-const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, date, expandable }) => {
+/**
+ *
+ *
+ * @param {*} { title, subtitle, image, body, url, date, expandable, downloadable }
+ * @returns
+ */
+const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, date, expandable, downloadable }) => {
     const classes = useStyles();
     const [expanded, setExpanded] = React.useState(false);
     const handleExpandClick = () => {
@@ -63,6 +70,8 @@ const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, da
     };
     return (
         <Card className={classes.root}>
+            <CardMedia className={classes.media} component="img" height={120} image={image} title={title} />
+            
             <CardHeader
                 titleTypographyProps={{
                     variant: 'h6'
@@ -73,10 +82,10 @@ const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, da
                 }}
                 subheader={`${subtitle} - ${date}`}
             />
-            <CardMedia className={classes.media} component="img" height={120} image={image} title={title} />
+            
             {!expandable && (
                 <CardContent>
-                    <Typography component="p" variant="body2" color="textSecondary">
+                    <Typography variant="body2" color="textSecondary">
                         {body}
                     </Typography>
                 </CardContent>
@@ -90,15 +99,18 @@ const PubCard: React.FC<PubCardProps> = ({ title, subtitle, image, body, url, da
                     </CardContent>
                 </Collapse>
             )}
+
             <CardActions disableSpacing className={classes.actions}>
-                <IconButton
-                    aria-label={`View ${title} PDF`}
-                    onClick={() => {
-                        window.open(url, '_blank');
-                    }}
-                >
-                    <FontAwesomeIcon icon={faFilePdf} />
-                </IconButton>
+                {downloadable && (
+                    <IconButton
+                        aria-label={`View ${title} PDF`}
+                        onClick={() => {
+                            window.open(url, '_blank');
+                        }}
+                    >
+                        <FontAwesomeIcon icon={faFilePdf} />
+                    </IconButton>
+                )}
                 {expandable && (
                     <IconButton
                         className={clsx(classes.expand, {
@@ -120,26 +132,7 @@ export const Publications = ({ publications }) => {
     const styles = useStyles();
     /*
   if (useList) {
-    return (
-      <List className={styles.root}>
-        {publications &&
-          publications.map((p) => (
-            <ListItem key={p.title} button>
-              {p.image && (
-                <ListItemAvatar>
-                  <img src={p.image} alt={p.title} className={styles.media} />
-                </ListItemAvatar>
-              )}
-              <ListItemText
-                className={styles.secondary}
-                primary={p.title}
-                secondary={p.body}
-              />
-              <ListItemSecondaryAction>{p.date}</ListItemSecondaryAction>
-            </ListItem>
-          ))}
-      </List>
-    );
+   
   }
   */
     return (
