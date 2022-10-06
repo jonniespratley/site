@@ -3,7 +3,7 @@
         "name": "Jonathan Spratley",
         "occupation": "Front-End Software Engineer",
         "hero": "Hello.",
-        "description": "I create components and apps using HTML/CSS/JS.",
+        "description": "I build apps using HTML/CSS & JavaScript.",
         "image": "/images/profilepic.jpg",
         "bio": "Experienced Software Developer adept in bringing forth expertise in design, installation, testing and maintenance of software systems.  Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
@@ -59,9 +59,17 @@
         "work": [
             {
                 "id": 0,
+                "company": "Cisco Systems",
+                "title": "Software Engineer",
+                "years": "June 2021 - Present",
+                "skills": "git, JavaScript, HTML, CSS, Node.js",
+                "description": "Work on team of engineers driving inovation and development."
+            },
+            {
+                "id": 9,
                 "company": "GE Digital",
                 "title": "Senior Software Engineer",
-                "years": "Mar 2014 - Present",
+                "years": "Mar 2014",
                 "skills": "git, JavaScript, HTML, CSS, Node.js",
                 "description": "Led team of software engineers driving full stack development.Implemented UI designs using CSS3, HTML5 and JavaScript. Developed programs to improve the effectiveness and overall operation of the team."
             },
@@ -160,7 +168,7 @@
             },
             {
                 "title": "React Design System",
-                "body": "Why? Well the predix-ui library is built with Polymer. This project attempts to bring those components to React.",
+                "body": "This project attempts to bring Predix UI components to React.",
                 "image": "/images/portfolio/portfolio-image-2.png",
                 "url": "https://github.com/jonniespratley/predix-ui"
             },

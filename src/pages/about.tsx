@@ -1,7 +1,6 @@
 import { Grid, Typography } from '@material-ui/core';
 import React from 'react';
 import { Education, Experience, FeatureTitle, SectionTitle } from '../components';
-import { UserCard } from '../components/UserCard';
 import resumeData from '../resumeData.json';
 
 const AboutPage = () => {
@@ -9,10 +8,7 @@ const AboutPage = () => {
     return (
         <div>
             <Grid container>
-                <Grid item xs={3}>
-                  <UserCard main={main}/>
-                </Grid>
-                <Grid item xs={9}>
+                <Grid item xs={12}>
                     <SectionTitle title="Profile" />
                     <Typography variant="body2">{main.bio}</Typography>
 
