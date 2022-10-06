@@ -166,6 +166,7 @@
                 "image": "/images/portfolio/learning-yeoman-book-thumb.jpg",
                 "url": "https://www.amazon.com/Learning-Yeoman-Jonathan-Spratley/dp/1783981385"
             },
+
             {
                 "title": "React Design System",
                 "body": "This project attempts to bring Predix UI components to React.",
