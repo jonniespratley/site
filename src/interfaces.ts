@@ -68,12 +68,11 @@ export interface IPortfolio {
 }
 
 export interface IProject {
-  title: string
-  body: string
-  image: string
-  url: string
+  title: string;
+  body?: string;
+  image?: string;
+  url?: string;
 }
-
 export interface IPublication {
   title: string
   subtitle: string

@@ -15,15 +15,18 @@ export const Experience = ({ resume }) => {
     return (
         <List component="nav">
             {resume.work.map((job) => (
-                <ListItem divider key={`${job.id}-${job.company}`}>
+                <ListItem divider key={`${job.id}`}>
                     <ListItemText
                         className={styles.secondary}
-                        primary={`${job.title} - ${job.company}`}
+                        primary={`${job.title}, ${job.company}`}
+                        secondaryTypographyProps={{
+                            component: 'div'
+                        }}
                         secondary={
                             <React.Fragment>
                                 <ul>
                                     {job.description.split('.').map((t) => {
-                                        return t && <li>{t}</li>;
+                                        return t && <li key={t}>{t}</li>;
                                     })}
                                 </ul>
                             </React.Fragment>
