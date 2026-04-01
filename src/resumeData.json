@@ -1,0 +1,269 @@
+{
+  "main": {
+    "name": "Jonnie Spratley",
+    "occupation": "Front-End Web Engineer",
+    "hero": "Hello.",
+    "description": "I build things using JavaScript.",
+    "image": "/images/profilepic.jpg",
+    "bio": "Experienced Software Developer adept in bringing forth expertise in design, installation, testing and maintenance of software systems.  Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "jonnie.spratley@me.com",
+    "phone": "(916) 241-3613",
+    "address": {
+      "street": "1234 Somewhere St.",
+      "city": "Sacramento",
+      "state": "CA",
+      "zip": "94526"
+    },
+    "website": "http://www.jonniespratley.me",
+    "resumedownload": "http://www.jonniespratley.me/public/resume.pdf",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/jonniespratley/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/jonniespratley",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Skilled in various front-end technologies, here are my favorites.",
+    "education": [
+      {
+        "school": "Sierra College",
+        "degree": "Computer Science",
+        "graduated": "Apr 2007",
+        "description": ""
+      },
+      {
+        "school": "Bella Vista HS",
+        "degree": "General Education",
+        "graduated": "Mar 2005",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "id": 0,
+        "company": "Cisco Systems",
+        "title": "Software Engineer",
+        "years": "Jun 2021 - Present",
+        "skills": "git, JavaScript, HTML, CSS, Node.js",
+        "description": "Work on team of engineers driving inovation and development."
+      },
+      {
+        "id": 9,
+        "company": "GE Digital",
+        "title": "Senior Software Engineer",
+        "years": "Mar 2014-2021",
+        "skills": "git, JavaScript, HTML, CSS, Node.js",
+        "description": "Led team of software engineers driving full stack development.Implemented UI designs using CSS3, HTML5 and JavaScript. Developed programs to improve the effectiveness and overall operation of the team."
+      },
+      {
+        "id": 1,
+        "company": "Silicon Villas",
+        "title": "Instructor",
+        "skills": "JavaScript, Design Patterns",
+        "years": "Jul 2017",
+        "description": "Served as a mentor for developers located in Italy. Curated curriculum on novice JavaScript fundamentals. Second course involed more advaced JavaScript including design patterns."
+      },
+      {
+        "id": 3,
+        "company": "Packt Publishing",
+        "title": "Author",
+        "years": "Nov 2013",
+        "description": "Wrote curriculum for process driven chapters. Demonstrated how to use open-source tools to streamline the development process. Collaborated with Quality control to ensure tutorials work across multiple platforms."
+      },
+
+      {
+        "id": 4,
+        "company": "AcademyX",
+        "title": "Instructor",
+        "years": "Jul 2013",
+        "description": "Curated Flash UI/UX Development curriculum for mobile applications. Taught 1-on-1 students on using Flash IDE for mobile development. Covered basics of using Flash in mobile development."
+      },
+
+      {
+        "id": 6,
+        "company": "AppMatrix Inc.",
+        "title": "Director of Product Design ",
+        "years": "Aug 2011",
+        "description": "Designed and developed client-side architecture using AngularJS.Designed and implemented server-side infrastructure using PHP and Node.Designed and developed API interfaces for mobile applications.Designed and developed custom components using Angular, Node, jQuery."
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML/CSS",
+        "level": 90,
+        "icon": "html5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "name": "JavaScript",
+        "icon": "js",
+        "level": 90,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "name": "ReactJS",
+        "level": 90,
+        "icon": "react",
+        "description": "Proficient: Rust, C, Java, JavaScript, HTML, CSS, SQL, Clojure. Knowledgeable: C++, Python, bash scripting, Go (golang), Haskell"
+      },
+
+      {
+        "name": "Sketch",
+        "level": 75,
+        "icon": "sketch",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "name": "CI/CD",
+        "level": 75,
+        "icon": "ci",
+        "description": "Experience in using Jenkins, TravisCI and enterprise integration services."
+      },
+      {
+        "name": "Git",
+        "icon": "git",
+        "level": 80,
+        "description": "Familiar with git-flow branching. Release tagging."
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Learning Yeoman",
+        "hidden": false,
+        "body": "A book writting on using Yeoman and other development tools.",
+        "image": "/images/portfolio/learning-yeoman-book-thumb.jpg",
+        "url": "https://www.amazon.com/Learning-Yeoman-Jonathan-Spratley/dp/1783981385"
+      },
+
+      {
+        "title": "React Design System",
+        "hidden": false,
+        "body": "This project attempts to bring Predix UI components to React.",
+        "image": "/images/portfolio/portfolio-image-2.png",
+        "url": "https://github.com/jonniespratley/predix-ui"
+      },
+      {
+        "title": "Passbook Manager",
+        "body": "A simple web application that allows you to create and manage Passes for Apple Wallet.",
+        "image": "/images/portfolio/passbook-manager-thumb.png",
+        "url": "https://github.com/jonniespratley/jps-passbook-manager"
+      }
+    ],
+    "publications": [
+      {
+        "title": "Learning Yeoman",
+        "hidden": false,
+        "subtitle": "Packt",
+        "date": "Aug  2014",
+        "body": "Build a web application using Yeoman and the scaffolding tool Yo to save time and therefore money! Learn how to use and customize Yeoman generators such as Angular and Backbone to streamline project development.",
+        "image": "/images/portfolio/learning-yeoman.png"
+      },
+      {
+        "title": "AngularJS Component",
+        "subtitle": "Safari Books",
+        "date": "Nov  2013",
+        "body": "For this post we are going to choose a very good HTML5 Canvas charting library. It goes by the name of ChartJS, and it has many charts that are very easy to use.",
+        "image": "/images/portfolio/ng-chartjs-banner.png"
+      },
+      {
+        "title": "Using HTML5 Web Speech",
+        "subtitle": "Safari Books",
+        "date": "Oct  2013",
+        "url": "https://drive.google.com/file/d/1cix9DnvvkW8w_Ik6ARgo6DcMKfVnwF31/view?usp=sharing",
+        "body": "The Web Speech API provides an alternative input method for web applications (without using a keyboard). Developers can give web applications the ability to transcribe voice to text, from the computer’s microphone",
+        "image": "/images/portfolio/ng-webspeech-banner.png"
+      },
+      {
+        "title": "Testing AngularJS with Jasmine",
+        "subtitle": "Safari Books",
+        "date": "Aug  2013",
+        "url": "https://drive.google.com/file/d/10iOrfALCsG70OReGm0ytvIEVsRPXMmqx/view?usp=sharing",
+        "body": "In this tip, we will be learning how to test AngularJS applications and code using Jasmine, which is a behavior-driven development framework for testing JavaScript code.",
+        "image": "/images/portfolio/jasmine-banner-wide.png"
+      },
+      {
+        "title": "Meteor Web Apps",
+        "subtitle": "Safari Books",
+        "date": "Jul 2013",
+        "url": "https://drive.google.com/file/d/16wPKOWikf7-AJf-lpBmJCpY5vRFOpBcr/view?usp=sharing",
+        "body": "In this post we will talk about using Meteor, which is an ultra-simple environment for building modern web applications. What once took weeks, even with the best tools, now takes hours with Meteor.",
+        "image": "/images/portfolio/meteor-banner-wide.png"
+      },
+      {
+        "title": "Yeoman Web Apps",
+        "subtitle": "Safari Books",
+        "date": "Jun  2013",
+        "url": "https://drive.google.com/file/d/1j19XnBMGaQU1THlW4kdHMRIHUmlnfeaq/view?usp=sharing",
+        "body": "In this post we will discuss using Yeoman, which is a client-side stack that contains three tools and frameworks to help developers quickly build beautiful and scalable web applications.",
+        "image": "/images/portfolio/yo-hbp.png"
+      }
+    ]
+  },
+  "blog": {
+    "posts": [
+      { "id": "post-1", "title": "AngularJS Component", "content": "" }
+    ],
+    "categories": [
+      {
+        "id": "cat-html5",
+        "name": "HTML/CSS",
+        "level": 90,
+        "icon": "html5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "id": "cat-js",
+        "name": "JavaScript",
+        "icon": "js",
+        "level": 95,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "id": "cat-ts",
+        "name": "TypeScript",
+        "icon": "ts",
+        "level": 80,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "id": "cat-reactjs",
+        "name": "ReactJS",
+        "level": 80,
+        "icon": "react",
+        "description": "Proficient: Rust, C, Java, JavaScript, HTML, CSS, SQL, Clojure. Knowledgeable: C++, Python, bash scripting, Go (golang), Haskell"
+      },
+
+      {
+        "id": "cat-sketch",
+        "name": "Design Tools",
+        "level": 75,
+        "icon": "sketch",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+      },
+      {
+        "id": "cat-ci",
+        "name": "CI/CD",
+        "level": 75,
+        "icon": "ci",
+        "description": "Experience in using Jenkins, TravisCI and enterprise integration services."
+      },
+      {
+        "id": "cat-git",
+        "name": "Git",
+        "icon": "git",
+        "level": 80,
+        "description": "Familiar with git-flow branching. Release tagging."
+      }
+    ]
+  }
+}

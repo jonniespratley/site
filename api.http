@@ -1,0 +1,80 @@
+@hostname = localhost
+@port = 3001
+@host = {{hostname}}:{{port}}
+@baseUrl = http://{{host}}
+@contentType = application/json
+
+
+###
+GET {{baseUrl}}/comments
+
+###
+GET {{baseUrl}}/comments/1
+
+###
+GET {{baseUrl}}/tags
+
+###
+GET {{baseUrl}}/tags/0fe6
+
+###
+GET {{baseUrl}}/posts?_embed=tags
+
+###
+GET {{baseUrl}}/comments?_embed=post
+
+###
+GET {{baseUrl}}/posts?_sort=id,-views
+
+###
+GET {{baseUrl}}/posts?_page=1&_per_page=2
+
+###
+# @name createPost
+POST {{baseUrl}}/posts
+Content-Type: {{contentType}}
+
+{
+     
+    "title": "Test Post 3",
+    "subtitle": "Jonnie Spratley",
+    "date": "01-01-2024",
+    "body": "This is a test post",
+    "image": "",
+    "categoryId": "3bb6"
+}
+
+###
+
+# @name createCategory
+POST {{baseUrl}}/tags
+Content-Type: application/json
+
+{
+    "name": "HTML5",
+    "icon": "html",
+
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+}
+
+###
+
+@commentId = {{createComment.response.body.$.id}}
+
+# @name createComment
+POST {{baseUrl}}/comments
+Content-Type: application/json
+
+{
+    "content": "fake content"
+}
+
+###
+
+@commentId = {{createComment.response.body.$.id}}
+
+# @name getCreatedComment
+GET {{baseUrl}}/comments/{{commentId}}
+#Authorization: {{authToken}}
+
+###

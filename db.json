@@ -1,0 +1,119 @@
+{
+  "posts": [
+    {
+      "id": "8d2e",
+      "title": "Test Post",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "2"
+    },
+    {
+      "id": "ea6c",
+      "title": "Test Post 3",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "3bb6"
+    },
+    {
+      "id": "9417",
+      "title": "Test Post 3",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "3bb6"
+    },
+    {
+      "id": "cdf1",
+      "title": "Test Post 3",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "3bb6"
+    },
+    {
+      "id": "93da",
+      "title": "Test Post 3",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "3bb6"
+    },
+    {
+      "id": "79d0",
+      "title": "Test Post 3",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "3bb6"
+    },
+    {
+      "id": "b781",
+      "title": "Test Post 3",
+      "subtitle": "Jonnie Spratley",
+      "date": "01-01-2024",
+      "body": "This is a test post",
+      "image": "",
+      "tagId": "3bb6"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "b781"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "b781"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "tags": [
+    {
+      "id": "2",
+      "name": "CI/CD",
+      "level": 75,
+      "icon": "ci",
+      "description": "Experience in using Jenkins, TravisCI and enterprise integration services."
+    },
+    {
+      "id": "b70c",
+      "name": "Git",
+      "icon": "git",
+      "level": 80,
+      "description": "Familiar with git-flow branching. Release tagging."
+    },
+    {
+      "id": "01d9",
+      "name": "ReactJS",
+      "level": 80,
+      "icon": "react",
+      "description": "Proficient: Rust, C, Java, JavaScript, HTML, CSS, SQL, Clojure. Knowledgeable: C++, Python, bash scripting, Go (golang), Haskell"
+    },
+    {
+      "id": "3bb6",
+      "name": "JavaScript",
+      "icon": "js",
+      "level": 95,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+    },
+    {
+      "id": "ed54",
+      "name": "HTML5",
+      "icon": "html",
+      "level": 95,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies porttitor lobortis. Nullam et diam in lectus facilisis euismod. Sed in nulla leo."
+    }
+  ]
+}
