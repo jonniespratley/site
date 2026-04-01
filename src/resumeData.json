@@ -138,25 +138,11 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Learning Yeoman",
+        "title": "JS Bros Lab",
         "hidden": false,
-        "body": "A book writting on using Yeoman and other development tools.",
-        "image": "/images/portfolio/learning-yeoman-book-thumb.jpg",
-        "url": "https://www.amazon.com/Learning-Yeoman-Jonathan-Spratley/dp/1783981385"
-      },
-
-      {
-        "title": "React Design System",
-        "hidden": false,
-        "body": "This project attempts to bring Predix UI components to React.",
-        "image": "/images/portfolio/portfolio-image-2.png",
-        "url": "https://github.com/jonniespratley/predix-ui"
-      },
-      {
-        "title": "Passbook Manager",
-        "body": "A simple web application that allows you to create and manage Passes for Apple Wallet.",
-        "image": "/images/portfolio/passbook-manager-thumb.png",
-        "url": "https://github.com/jonniespratley/jps-passbook-manager"
+        "body": "A coding curriculum built for kids 9-13, taught by Dad. Learn Git, Markdown, Roblox Studio, and Lua one lesson at a time.",
+        "image": "/images/projects/js-bros-lab-banner-alt.png",
+        "url": "https://github.com/js-bro-s/jsbros-lab"
       }
     ],
     "publications": [
@@ -166,7 +152,7 @@
         "subtitle": "Packt",
         "date": "Aug  2014",
         "body": "Build a web application using Yeoman and the scaffolding tool Yo to save time and therefore money! Learn how to use and customize Yeoman generators such as Angular and Backbone to streamline project development.",
-        "image": "/images/portfolio/learning-yeoman.png"
+        "image": "/images/portfolio/learning-yeoman-book-thumb.jpg"
       },
       {
         "title": "AngularJS Component",
