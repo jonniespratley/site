@@ -15,7 +15,7 @@ import ListItemText from "@mui/joy/ListItemContent";
 
 import ListIcon from "@mui/icons-material/List";
 import MenuIcon from "@mui/icons-material/Menu";
-import { DialogTitle, Link, ModalClose, Sheet, useColorScheme } from "@mui/joy";
+import { Link, ModalClose, useColorScheme } from "@mui/joy";
 
 const drawerWidth = 240;
 const navItems = [

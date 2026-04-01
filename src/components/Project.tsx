@@ -2,11 +2,10 @@ import "../styles/Project.scss";
 import { useResumeData } from "../hooks";
 
 import Card from "@mui/joy/Card";
-import CardContent from "@mui/joy/CardContent";
 import Typography from "@mui/joy/Typography";
 
 import Grid from "@mui/joy/Grid";
-import { AspectRatio, CardOverflow, Link, Sheet } from "@mui/joy";
+import { AspectRatio, CardOverflow } from "@mui/joy";
 
 function Project() {
   const { portfolio } = useResumeData();

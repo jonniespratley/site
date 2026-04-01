@@ -15,8 +15,6 @@ type BookProps = {
   date?: string;
 };
 
-const PUBLIC_URL = "";
-
 export function Book(book: BookProps) {
   return (
     <>

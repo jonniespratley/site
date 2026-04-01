@@ -1,53 +1,12 @@
-import React from "react";
 import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faReact,
-  faHtml5,
   faSketch,
   faGit,
-  faDocker,
-  faPython,
 } from "@fortawesome/free-brands-svg-icons";
-import Chip from "@mui/material/Chip";
 import "../styles/Expertise.scss";
 import { useResumeData } from "../hooks";
 
-const labelsFirst = [
-  "React",
-  "TypeScript",
-  "JavaScript",
-  "HTML5",
-  "CSS3",
-  "SASS",
-  "Flask",
-  "Python",
-  "SQL",
-  "PostgreSQL",
-  "Postman",
-];
-
-const labelsSecond = [
-  "Git",
-  "GitHub Actions",
-  "Docker",
-  "AWS",
-  "Azure",
-  "Linux",
-  "Snowflake",
-  "Pandas",
-  "Selenium",
-];
-
-const labelsThird = [
-  "OpenAI",
-  "Groq",
-  "LangChain",
-  "Qdrant",
-  "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
-];
 
 type SkillProps = {
   name: string;
@@ -61,7 +20,7 @@ const iconsMap = {
   sketch: faSketch,
 };
 
-function Skill({ name, icon, description }: SkillProps) {
+function Skill({ name, description }: SkillProps) {
   return (
     <div className="skill">
       <FontAwesomeIcon icon={iconsMap.git} size="3x" />
