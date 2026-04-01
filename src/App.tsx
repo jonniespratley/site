@@ -1,25 +1,15 @@
 import { useState, useEffect } from "react";
-
+import { CssVarsProvider } from "@mui/joy/styles";
+import CssBaseline from "@mui/joy/CssBaseline";
 import {
   Main,
   Project,
   Navigation,
   Footer,
+  Publications
 } from "./components";
-
-import { CssVarsProvider } from "@mui/joy/styles";
-import CssBaseline from "@mui/joy/CssBaseline";
-import Publications from "./components/Publications";
-
 import theme from "./theme";
-import { lightTheme } from "./themes/light.theme";
-import { darkTheme } from "./themes/dark.theme";
 import "./index.scss";
-
-const THEMES = {
-  light: lightTheme,
-  dark: darkTheme,
-};
 
 function App() {
   //const [theme, setTheme] = useState<ThemeContextType>("light");
