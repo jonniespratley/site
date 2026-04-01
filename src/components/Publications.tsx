@@ -24,7 +24,7 @@ function Publications() {
         {portfolio.publications.map(
           (item, index) =>
             !item.hidden && (
-              <Grid sm={6} md={4} xl={3} className="publication">
+              <Grid sm={6} md={4} xl={3} className="publication" key={`publications-${item.title}`}>
                 <Book {...item} />
               </Grid>
             )

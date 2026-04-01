@@ -15,7 +15,7 @@ type BookProps = {
   date?: string;
 };
 
-const PUBLIC_URL = "http://localhost:3000";
+const PUBLIC_URL = "";
 
 export function Book(book: BookProps) {
   return (
@@ -24,7 +24,7 @@ export function Book(book: BookProps) {
         <CardOverflow>
           <AspectRatio sx={{ minWidth: 200 }}>
             <img
-              src={`${PUBLIC_URL}${book.image}`}
+              src={`${process.env.PUBLIC_URL}${book.image}`}
               title={book.title}
               loading="lazy"
               alt=""
