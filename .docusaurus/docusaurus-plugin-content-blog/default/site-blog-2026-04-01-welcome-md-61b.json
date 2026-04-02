@@ -1,0 +1,43 @@
+{
+  "permalink": "/blog/welcome",
+  "source": "@site/blog/2026-04-01-welcome.md",
+  "title": "Welcome to My New Site",
+  "description": "Welcome to the new version of my personal site! I've migrated from a React single-page app to Docusaurus for a cleaner, content-focused experience.",
+  "date": "2026-04-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "personal",
+      "permalink": "/blog/tags/personal"
+    },
+    {
+      "inline": true,
+      "label": "update",
+      "permalink": "/blog/tags/update"
+    }
+  ],
+  "readingTime": 0.32,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Jonnie Spratley",
+      "title": "Software Engineer",
+      "url": "https://github.com/jonniespratley",
+      "imageURL": "/img/profilepic.jpg",
+      "key": "jonnie",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome to My New Site",
+    "authors": [
+      "jonnie"
+    ],
+    "tags": [
+      "personal",
+      "update"
+    ]
+  },
+  "unlisted": false
+}
