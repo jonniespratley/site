@@ -1,0 +1,11 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome to My New Site",
+      "permalink": "/blog/welcome",
+      "unlisted": false,
+      "date": "2026-04-01T00:00:00.000Z"
+    }
+  ]
+}
